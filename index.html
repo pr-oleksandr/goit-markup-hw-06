@@ -10,7 +10,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;500;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/styles-new.css">
 </head>
 <body>
 <header class="header">
@@ -31,6 +31,11 @@
                             111-11-11</a></li>
                 </ul>
             </address>
+            <div class="box">
+                <input class="burger" type="checkbox" id="burger">
+                <label class="burger-btn" for="burger"></label>
+                <span class="burger-icon"></span>
+            </div>
     </div>
 </header>
 
@@ -42,7 +47,7 @@
             </div>
         </section>
   
-    <section class="main-section-features">
+    <section class="main-section-features ">
       <div class="container">
             <h2 class="visually-hidden">Features</h2>
             <ul class="main-features-list">
@@ -86,7 +91,7 @@
             </ul>
       </div>
     </section>
-        <section class="main-section-team">
+        <section class="main-section-team hidden">
             <div class="container">
               <h2 class="main-team-title">Our Team</h2>
               <ul class="main-team-list">
@@ -241,7 +246,7 @@
               </ul>
             </div>
         </section>
-        <section class="main-section-portfolio">
+        <section class="main-section-portfolio hidden">
             <div class="container">
               <h2 class="main-portfolio-title"> Our Portfolio</h2>
                 <ul class="main-portfolio-list">
@@ -322,7 +327,7 @@
         </section>
 </main>
 
-<footer class="footer-section">
+<footer class="footer-section hidden">
     <div class="container foot-cont">
                     <div class="footter-wrapper">
                         <a class="footer-logo" href="./index.html">Web<span class="footer-logo-span">Studio</span></a>
@@ -374,7 +379,7 @@
                     </div>
     </div>
 </footer>
-<div class="modal-overlay">
+<div class="modal-overlay hidden">
     <div class="modal">
         <button class="btn-modal-close" type="button">
             <svg class="modal-icon" width="8" height="8">
