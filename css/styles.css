@@ -343,8 +343,6 @@ color: #ffffff;
 .checkbox-text {
   font-weight: 400;
   font-size: 12px;
-
-  /* line-height: 14px; */
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
@@ -387,8 +385,6 @@ color: #ffffff;
   font-weight: 500;
   font-size: 16px;
 border: none;
-
-  /* line-height: 24px; */
   line-height: 1.5;
   letter-spacing: 0.04em;
   text-align: center;
