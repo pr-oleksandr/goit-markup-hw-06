@@ -200,7 +200,7 @@ height: 1.5px;
 
 .mobile-menu.is-open {
   opacity: 1;
-  visibility: hidden;
+  visibility: visible;
   pointer-events: auto;
 }
 
